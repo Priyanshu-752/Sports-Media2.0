@@ -1,0 +1,54 @@
+.registeration-container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(8, 35, 215, 0.5);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.register-heading {
+    margin-top: 5px;
+    margin-bottom: 20px; 
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}  
+
+.form-group input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btn {
+    display: inline-block; 
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .registeration-container {
+        width: 90%; 
+        max-width: none; 
+        margin-top: 2rem;
+    }
+
+    .btn {
+        margin-top: 15px; 
+    }
+}

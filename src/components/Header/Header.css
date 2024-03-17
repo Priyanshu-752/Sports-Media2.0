@@ -33,6 +33,7 @@
  .login-text {
    margin-right: 10px;
    margin-top: 6px;
+   text-decoration: none; 
  }
  .login-icon {
    font-size: 25px; 
