@@ -1,0 +1,44 @@
+.nav {
+   background-color:rgb(242, 246, 247);
+   color: rgb(40, 98, 233);
+   height: 35px; 
+   display: flex;
+   justify-content: space-between;
+   padding: 4px;
+   border-radius: 20px;
+}
+.text {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.logo {
+   max-height: 100%;
+   margin-left: 5px;
+   border-radius: 50%; 
+}
+.search {
+   width: auto;
+   margin-left: auto;
+   margin-right: 20px;
+   height: 28px;
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   margin-top: 6px;
+   outline: none;
+}
+.login-container {
+   border-radius: 20px; 
+ }
+ .login-text {
+   margin-right: 10px;
+   margin-top: 6px;
+ }
+ .login-icon {
+   font-size: 25px; 
+   margin-top: 12px;
+   color: rgb(40, 128, 244);
+   margin-right: 25px;
+   cursor: pointer; 
+ }
+ 
